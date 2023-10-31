@@ -1,0 +1,126 @@
+@font-face {
+  font-family: Red-Hat-Display-Regular;
+  src: url("/RedHatDisplay-Regular.ttf");
+}
+@font-face {
+  font-family: Red-Hat-Display-Bold;
+  src: url("/RedHatDisplay-ExtraBold.ttf");
+}
+p {
+  font-size: 16px;
+}
+body {
+  font-family: Red-Hat-Display-Regular;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url("/images/pattern-background-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 80%;
+  transform: translate(-50%, -50%);
+  border-radius: 16px;
+  box-shadow: none;
+  background: #fff;
+  transform-origin: center;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.ann {
+  position: absolute;
+
+  top: 60%;
+  left: 10%;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(225, 100%, 98%);
+  width: 80%;
+  height: 15%;
+}
+.order {
+  font-family: Red-Hat-Display-Bold;
+  color: hsl(223, 47%, 23%);
+  font-size: 35px;
+  font-weight: 900;
+}
+.ann a {
+  position: absolute;
+  left: 80%;
+}
+.price {
+  position: absolute;
+  top: 80%;
+}
+.annual-price {
+  position: absolute;
+  left: 30%;
+  top: 10%;
+}
+.music {
+  position: absolute;
+  left: 10%;
+}
+.plan {
+  font-family: Red-Hat-Display-Bold;
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+.payement {
+  position: absolute;
+  left: 13%;
+  bottom: 12%;
+}
+.btn {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border-radius: 20px;
+  border: none;
+  width: 25em;
+  height: 4em;
+  box-shadow: 0px 20px 50px hsl(225, 100%, 94%);
+  cursor: pointer;
+  font-family: Red-Hat-Display-Bold;
+
+  font-weight: 800;
+}
+.btn:hover {
+  background-color: hsla(245, 75%, 52%, 0.6);
+}
+.change {
+  font-family: Red-Hat-Display-Bold;
+  color: hsl(245, 75%, 52%);
+  font-weight: 800;
+}
+.change:hover {
+  text-decoration: none;
+  color: hsla(245, 75%, 52%, 0.6);
+}
+.cancel {
+  font-family: Red-Hat-Display-Bold;
+  font-weight: 800;
+  text-decoration: none;
+  display: flex;
+  position: absolute;
+  top: 156%;
+  left: 35%;
+  color: grey;
+}
+.cancel:hover {
+  color: rgb(20, 19, 19);
+}
+.attribution {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 900px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
